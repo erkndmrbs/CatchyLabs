@@ -1,0 +1,40 @@
+
+ [
+   {
+     "key": "AddMoney",
+     "value": "//*[contains(text(),'Add money')]",
+     "type": "xpath"
+   },
+   {
+     "key": "CardNumber",
+     "value": "(//input[contains(@rows,'1')])[1]",
+     "type": "xpath"
+   },
+   {
+     "key": "CardHolder",
+     "value": "//div[contains(text(),'Card holder')]/following-sibling::input",
+     "type": "xpath"
+   },
+   {
+     "key": "ExpiryDate",
+     "value": "//div[contains(text(),'Expiry date')]/following-sibling::input",
+     "type": "xpath"
+   },
+   {
+     "key": "CVV",
+     "value": "//div[contains(text(),'CVV')]/following-sibling::input",
+     "type": "xpath"
+   },
+   {
+     "key": "AddMoneyAmount",
+     "value": "//div[8]//input[1]",
+     "type": "xpath"
+   },
+   {
+     "key": "Add",
+     "value": "//div[@class='css-146c3p1 r-jwli3a r-1b43r93'][normalize-space()='Add']",
+     "type": "xpath"
+   }
+
+
+ ]

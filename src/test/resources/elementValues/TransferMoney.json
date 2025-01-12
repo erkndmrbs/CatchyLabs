@@ -1,0 +1,89 @@
+[
+
+  {
+"key": "UserName",
+"value": "input[placeholder='Username']",
+"type": "css"
+  },
+  {
+"key": "Password",
+"value": "input[placeholder='Password']",
+"type": "css"
+  },
+  {
+"key": "Login",
+"value": "//*[contains(text(),'Login')]",
+"type": "xpath"
+  },
+  {
+"key": "OpenMoneyTransfer",
+"value": "//*[contains(text(),'Open Money Transfer')]",
+"type": "xpath"
+  },
+  {
+  "key": "MyAccount",
+  "value": "//*[contains(text(),'My account')]",
+  "type": "xpath"
+  },
+  {
+    "key": "TransferMoney",
+    "value": "//*[contains(text(),'Transfer money')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Amount",
+    "value": "(//div[contains(@style,'margin-right: 4px;')])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "AmountTransfer",
+    "value": "//input[contains(@inputmode,'numeric')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Send",
+    "value": "//div[contains(@class,'r-z2wwpe r-h3s6tt r-1777fci r-tsynxw r-13')]",
+    "type": "xpath"
+  },
+  {
+    "key": "TooShort",
+    "value": "//div[contains(text(),'Too Short!')]",
+    "type": "xpath"
+  },
+  {
+    "key": "TooLong",
+    "value": "//div[contains(text(),'Too Long!')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Required",
+    "value": "//div[normalize-space()='Required']",
+    "type": "xpath"
+  },
+  {
+    "key": "WrongDate",
+    "value": "//div[normalize-space()='Wrong date. Please give a correct date']",
+    "type": "xpath"
+  },
+  {
+    "key": "AmountMust",
+    "value": "//div[contains(text(),'amount must be a `number` type')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Transfer",
+    "value": "(//div[contains(@style,'margin-right: 4px;')])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "HesapList",
+    "value": "//div[7]//select[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ReceiverAccount",
+    "value": "//div[contains(text(),'Testinium-5')]",
+    "type": "xpath"
+  }
+
+]
